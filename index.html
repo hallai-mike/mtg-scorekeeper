@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ScoreKeeper</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="sketch.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div id="player-0" class="row player-row">
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-minus"></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="score col-sm"></div>
+				</div>
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-plus"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="menu-bar" class="row">
+				<div class="btn-column">
+					<div class="glyphicon-btn-container" onclick="reset()">
+						<div class="glyphicon glyphicon-retweet"></div>
+					</div>
+				</div>
+				<div class="btn-column">
+					<div class="glyphicon-btn-container">
+						<div class="glyphicon glyphicon-user"></div>
+					</div>
+				</div>
+				<div class="btn-column">
+					<div class="glyphicon-btn-container">
+						<img class="glyphicon" src="fi-die-five.svg" alt="fi-die-five">
+					</div>
+				</div>
+				<div class="btn-column">
+					<div class="glyphicon-btn-container">
+						<div class="reset-live-amount-btn"><span></span></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="player-1" class="row player-row">
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-minus"></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="score col-sm"></div>
+				</div>
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-plus"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="player-2" class="row player-row">
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-minus"></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="score col-sm"></div>
+				</div>
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-plus"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="player-3" class="row player-row">
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-minus"></div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="score col-sm"></div>
+				</div>
+				<div class="column">
+					<div class="glyphicon-container">
+						<div class="glyphicon glyphicon-plus"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<div class="btn-column">
+						<p class="starting-life-option">10</p>
+					</div>
+					<div class="btn-column">
+						<p class="starting-life-option">20</p>
+					</div>
+					<div class="btn-column">
+						<p class="starting-life-option">30</p>
+					</div>
+					<div class="btn-column">
+						<p class="starting-life-option">40</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
